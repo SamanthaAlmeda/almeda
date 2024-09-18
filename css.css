@@ -1,0 +1,170 @@
+body {
+    background-color: lightblue; /*i chose color blue as a color scheme para maganda lang sa mata ang kulay*/
+ font-family: "Lucida Console", "Courier New", monospace; /*ito yung nakita kong font-family sa w3schools*/
+}
+
+/*styling for navigation*/
+.navbar ul {
+    list-style-type: none; /*para mawala yunng bullet points*/
+    background-color: dodgerblue; /*for color scheme*/
+    padding: 0;
+    margin: 0;
+    overflow: hidden; 
+    display: flex; /*para mapakita ang items sa navigation bar horizontally*/
+    justify-content: center; /*para naka center*/
+}
+.navbar li {
+    margin: 10px;  /*para masy spacing bawat item na nasa list*/
+}
+
+.navbar a:hover {
+    background-color: hsl(240, 100%, 50%);
+}
+.navbar a {
+    color: white; /*para readable over blue */
+    text-decoration: none; /*para mawala yung underlines*/
+    padding: 15px;
+   display: block; 
+    text-align: center;
+}
+
+section {
+    padding: 20px; 
+    margin:  10px auto;/* naka auto margin ito para ma-center horizontally yung element na nasa container */
+    width: 800px;
+    background: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+
+
+.center-left-container {
+    display: flex;           
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+    height: 200px;           
+}
+
+
+.image {
+    display: flex;       
+    justify-content: center; 
+    align-items: center;    
+    height: 300px;           
+}
+
+.image img {
+    width: 30%;              
+    border-radius: 60%;   
+}
+
+
+.socials {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40%; 
+    margin:10px; 
+   margin-top:40px;
+}
+
+#Skills h1 {
+    color: blue; /*para sa color scheme */
+}
+
+#Skills {
+text-align: center;  
+}
+
+
+#Skills li {
+list-style-type: none; /*para mawala ang bullet points*/
+    margin-top: 30px; 
+ text-align: center; /*mas clean tingnan pag naka center at di mukhang may nawawala */
+}
+
+#Hobbies h1 {
+    color: blue; 
+}
+
+#Hobbies {
+    text-align: center; 
+}
+
+
+#Hobbies li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    list-style-type: none; 
+    text-align: center; 
+}
+
+
+#Hobbies .image-gallery {
+    display: flex; 
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+
+#Hobbies img {
+    width: 280px; 
+    height: 200px;
+ object-fit: cover;  
+}
+
+#Activities h1 {
+    color: blue; 
+}
+
+
+#Activities {
+    text-align: center; 
+}
+
+
+#Activities li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    list-style-type: none; 
+    text-align: center; 
+}
+
+
+
+#Activities img {
+    width:280px; 
+    height: 200px; 
+    object-fit: cover; /*para di mastretch yung image*/
+}
+
+
+
+
+#Personal_Information {
+    text-align: center; 
+}
+
+
+#Personal_Information h1 {
+    margin-bottom: 25px;
+    color: blue; 
+}
+
+#Personal_Information h3 {
+    margin: 15px ;  
+    color: black;
+}
+
+
+#Personal_Information h3 b {
+    color: blue; 
+}
